@@ -1,0 +1,53 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    }
+
+body {
+    background-color: rgb(238, 238, 238);
+    }
+
+.regformwhole {
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(221, 221, 221);
+    }
+
+.form-names {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: Center;
+    margin: 10px;
+    }
+
+.form-raceselect {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: Center;
+    margin: 10px;
+    }
+
+.form-account{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: Center;
+    margin: 10px;
+    }
+
+.form-agegroup {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: Center;
+    margin: 10px;
+    }
+
+.form-button {
+    text-align:center;
+    margin: 10px;
+    }

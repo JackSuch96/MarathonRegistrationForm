@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Marathon Registration Form</title>
+    <a name='#'></a>
+    <link rel='stylesheet' href='styles.css'> 
+</head>
+<body>
+<main> 
+<div class='regformwhole'>
+    <h1>Marathon Registration</h1>
+    <form action='/submitdetails'>
+    <div class='form-names'>
+        <label for='fname'>First Name</label>
+        <input type='text' id='fname' placeholder='First Name' name='fname' required>
+        <label for='sname'>Surname</label>
+        <input type='text' id='sname' placeholder='Surname' name='sname' required>
+    </div>
+    <div class='form-raceselect'>
+       <p>Select a race: <label for='5k'>5K</label>
+        <input type='radio' name='racetype' value="5k" id='5k'>
+        <label for='hm'>Half Marathon</label>
+        <input type='radio' name='racetype' value="hm" id='hm'>
+        <label for='fm'>Full Marathon</label>
+        <input type='radio' name='racetype' value="fm" id='fm'></p> 
+    </div>
+    <div class='form-account'>
+        <label for='email'>Email</label>
+        <input type='email' id='email' placeholder='Email Address' name='email' required>
+        <label for='password'>Password</label>
+        <input type='password' id='password' placeholder='Password' name='password'
+                minlength='1' maxlength='20' required>    
+    </div>
+    <div class='form-agegroup'>
+        <label for='agegroup'>Select Age Group</label>
+        <select name='agegroup' id='agegroup' required>
+            <option value='Under18'>Under 18</option>
+            <option value='18-30'>18-30</option>
+            <option value='30-45'>30-45</option>
+            <option value='45+'>45+</option>
+        </select>
+    </div>
+    <div class='form-button'>
+    <button>Register</button>
+    </div> 
+    </form>
+</div>
+</main>
+</body>
+</html>
